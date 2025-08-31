@@ -5,7 +5,13 @@ Incluye un **hero slider con vídeos**, **galería dinámica desde JSON**, un **
 
 ---
 
-## ⚙️ 1. Decisiones técnicas
+## 🔨 Instrucciones de build
+
+Este proyecto usa **Vite** como bundler para compilar SCSS → CSS y servir el proyecto en local.
+
+---
+
+## ⚙️ 2. Decisiones técnicas
 
 - **SCSS**: uso de variables, mixins y arquitectura modular por componentes.  
 - **Mixins**: definidos para media queries y estilos responsive.  
@@ -21,7 +27,7 @@ Incluye un **hero slider con vídeos**, **galería dinámica desde JSON**, un **
 
 ---
 
-## ✅ 2. Checklist de accesibilidad
+## ✅ 3. Checklist de accesibilidad
 
 - [x] Navegación completa con teclado (header, slider, filtros, lightbox).  
 - [x] Atributos ARIA aplicados correctamente.  
@@ -31,18 +37,18 @@ Incluye un **hero slider con vídeos**, **galería dinámica desde JSON**, un **
 
 ---
 
-## 📊 3. Métricas Lighthouse
+## 📊 4. Métricas Lighthouse
 
 ### Versión **Escritorio**
-![Lighthouse escritorio](./docs/lighthouse-desktop.png)
+![Lighthouse escritorio](./docs/data/lighthouse-desktop.png)
 
 ### Versión **Móvil**
-![Lighthouse móvil](./docs/lighthouse-mobile.jpeg)
+![Lighthouse móvil](./docs/data/lighthouse-mobile.jpeg)
 
 > 📌 Las capturas están en la carpeta `/docs`.  
 Si quieres ver los informes completos exportados en JSON:  
-- [Informe Lighthouse Escritorio](./docs/silviatovardev.github.io-20250831T175249-desktop)  
-- [Informe Lighthouse Móvil](./docs/silviatovardev.github.io-20250831T174950-mobile)  
+- [Informe Lighthouse Escritorio](./docs/data/silviatovardev.github.io-20250831T180904-desktop.json)  
+- [Informe Lighthouse Móvil](./docs/data/silviatovardev.github.io-20250831T180953-mobile.json)  
 
 ---
 
