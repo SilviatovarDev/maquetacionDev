@@ -40,7 +40,7 @@ Este proyecto usa **Vite** como bundler para compilar SCSS → CSS y servir el p
 ## 📊 4. Métricas Lighthouse
 
 ### Versión **Escritorio**
-![Lighthouse escritorio](./docs/data/lighthouse-desktop.png)
+![Lighthouse escritorio](./docs/data/lighthouse-desktop.jpeg)
 
 ### Versión **Móvil**
 ![Lighthouse móvil](./docs/data/lighthouse-mobile.jpeg)
