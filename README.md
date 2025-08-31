@@ -37,12 +37,12 @@ Incluye un **hero slider con vídeos**, **galería dinámica desde JSON**, un **
 ![Lighthouse escritorio](./docs/lighthouse-desktop.png)
 
 ### Versión **Móvil**
-![Lighthouse móvil](./docs/lighthouse-mobile.png)
+![Lighthouse móvil](./docs/lighthouse-mobile.jpeg)
 
 > 📌 Las capturas están en la carpeta `/docs`.  
 Si quieres ver los informes completos exportados en JSON:  
-- [Informe Lighthouse Escritorio](./docs/lighthouse-desktop.json)  
-- [Informe Lighthouse Móvil](./docs/lighthouse-mobile.json)  
+- [Informe Lighthouse Escritorio](./docs/silviatovardev.github.io-20250831T175249-desktop)  
+- [Informe Lighthouse Móvil](./docs/silviatovardev.github.io-20250831T174950-mobile)  
 
 ---
 
