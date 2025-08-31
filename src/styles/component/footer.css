@@ -1,0 +1,46 @@
+.pie {
+  background: #fff;
+  border-top: 1px solid #ddd;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+.pie .pie-contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.pie .pie-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.pie .pie-nav a {
+  color: #333;
+  text-decoration: none;
+}
+.pie .pie-nav a:hover, .pie .pie-nav a:focus {
+  color: #0055ff;
+}
+.pie .pie-redes {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+.pie .btn-arriba {
+  background: #0055ff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.pie .btn-arriba:hover, .pie .btn-arriba:focus {
+  background: #003bb3;
+}/*# sourceMappingURL=footer.css.map */

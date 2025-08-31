@@ -1,0 +1,90 @@
+.hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  /* Flechas */
+  /* Bullets */
+}
+.hero .slider {
+  display: flex;
+  height: 100%;
+}
+.hero .slider .slide {
+  min-width: 100%;
+  height: 100%;
+  position: relative;
+}
+.hero .slider .slide.activo {
+  opacity: 1;
+}
+.hero .slider .slide video,
+.hero .slider .slide img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  display: block;
+}
+.hero .slider .slide .contenido-slide {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+}
+.hero .slider .slide .contenido-slide .btn-hero {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.2rem;
+  background: #0055ff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.hero .slider .slide .contenido-slide .btn-hero:hover,
+.hero .slider .slide .contenido-slide .btn-hero:focus {
+  background: #003bb3;
+}
+.hero .flecha {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  z-index: 10;
+}
+.hero .flecha.izquierda {
+  left: 10px;
+}
+.hero .flecha.derecha {
+  right: 10px;
+}
+.hero .flecha:hover,
+.hero .flecha:focus {
+  background: rgba(0, 0, 0, 0.8);
+}
+.hero .puntos {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.5rem;
+}
+.hero .puntos button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background: #ccc;
+  cursor: pointer;
+}
+.hero .puntos button[aria-current='true'] {
+  background: #0055ff;
+} /*# sourceMappingURL=hero-slider.css.map */

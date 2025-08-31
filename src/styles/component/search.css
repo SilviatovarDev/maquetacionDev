@@ -1,0 +1,33 @@
+.filtros {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.filtros .categorias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.filtros .btn-filtro {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background: #f5f5f5;
+  cursor: pointer;
+}
+.filtros .btn-filtro.activo {
+  background: #0055ff;
+  color: #fff;
+}
+.filtros #buscar {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 300px;
+}
+.filtros #ordenar {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}/*# sourceMappingURL=search.css.map */

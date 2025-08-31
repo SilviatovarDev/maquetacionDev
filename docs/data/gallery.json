@@ -1,0 +1,294 @@
+
+
+[
+  {
+    "id": 1,
+    "title": "Destino",
+    "category": ["Destinos"],
+    "tags": ["playa", "mar"],
+    "src": { "type": "image",  "jpg": "img/destino/destinos(5).jpg",
+    "small": "img/destino/destinos(5)-small.jpg" },
+    "width": 1024,
+    "height": 1200,
+    "views": 100,
+    "createdAt": "2025-08-01"
+  },
+  {
+    "id": 2,
+    "title": "Destino",
+    "category": ["Destinos"],
+    "tags": ["costa", "arena"],
+    "src": { "type": "image", "jpg": "img/destino/destinos(2).jpg", "small":"img/destino/destinos(2)-small.jpg" },
+    "width": 1600,
+    "height": 1200,
+    "views": 280,
+    "createdAt": "2025-01-02"
+  },
+  {
+    "id": 3,
+    "title": "Destino",
+    "category": ["Destinos"],
+    "tags": ["isla", "turquesa"],
+    "src": { "type": "image", "jpg": "img/destino/destinos(3).jpg", "small":"img/destino/destinos(3)-small.jpg" },
+    "width": 1600,
+    "height": 1200,
+    "views": 400,
+    "createdAt": "2021-04-03"
+  },
+  {
+    "id": 4,
+    "title": "Destino",
+    "category": ["Destinos"],
+    "tags": ["montaña", "nieve"],
+    "src": {
+      "type": "image",
+      "jpg": "img/destino/destinos(4).jpg",
+      "small": "img/destino/destinos(4)-small.jpg"
+    },
+    "width": 1600,
+    "height": 1200,
+    "views": 150,
+    "createdAt": "2025-02-04"
+    
+  },
+  {
+    "id": 5,
+    "title": "Destino",
+    "category": ["Destinos"],
+    "tags": ["ciudad", "urbano"],
+    "src": { "type": "image", "jpg": "img/destino/destinos(6).jpg", "small": "img/destino/destinos(6)-small.jpg" },
+    "width": 1600,
+    "height": 1200,
+    "views": 220,
+    "createdAt": "2023-03-05"
+  },
+
+  {
+    "id": 6,
+    "title": "Experiencia",
+    "category": ["Experiencias"],
+    "tags": ["senderismo", "aventura"],
+    "src": { "type": "image", "jpg": "img/experiencia/experiencias(1).jpg", "small": "img/experiencia/experiencias(1)-small.jpg" },
+    "width": 1600,
+    "height": 1200,
+    "views": 350,
+    "createdAt": "2021-05-06"
+  },
+  {
+    "id": 7,
+    "title": "Experiencia",
+    "category": ["Experiencias"],
+    "tags": ["cultura", "historia"],
+    "src": { "type": "image", "jpg": "img/experiencia/experiencias(2).jpg", "small": "img/experiencia/experiencias(2)-small.jpg" },
+    "width": 1600,
+    "height": 1200,
+    "views": 270,
+    "createdAt": "2021-09-07"
+  },
+  {
+    "id": 8,
+    "title": "Experiencia",
+    "category": ["Experiencias"],
+    "tags": ["piscina", "lujo"],
+    "src": { "type": "image", "jpg": "img/experiencia/experiencias(3).jpg", "small": "img/experiencia/experiencias(3)-small.jpg" },
+    "width": 1600,
+    "height": 1200,
+    "views": 180,
+    "createdAt": "2021-01-08"
+  },
+  {
+    "id": 9,
+    "title": "Experiencia",
+    "category": ["Experiencias"],
+    "tags": ["mar", "buceo"],
+    "src": { "type": "image", "jpg": "img/experiencia/experiencias(4).jpg", "small": "img/experiencia/experiencias(4)-small.jpg" },
+    "width": 1920,
+    "height": 1080,
+    "views": 760,
+    "createdAt": "2022-07-09"
+  },
+  {
+    "id": 10,
+    "title": "Experiencia",
+    "category": ["Experiencias"],
+    "tags": ["globos", "panorama"],
+    "src": { "type": "image", "jpg": "img/experiencia/experiencias(5).jpg", "small": "img/experiencia/experiencias(5)-small.jpg" },
+    "width": 1920,
+    "height": 1080,
+    "views": 540,
+    "createdAt": "2022-06-10"
+  },
+
+  {
+    "id": 11,
+    "title": "Hotel",
+    "category": ["Hoteles"],
+    "tags": ["vista", "lujo"],
+    "src": { "type": "image", "jpg": "img/hotel/hoteles(1).jpg", "small": "img/hotel/hoteles(1)-small.jpg" },
+    "width": 1600,
+    "height": 1200,
+    "views": 500,
+    "createdAt": "2023-04-11"
+  },
+  {
+    "id": 12,
+    "title": "Hotel",
+    "category": ["Hoteles"],
+    "tags": ["entrada", "urbano"],
+    "src": { "type": "image", "jpg": "img/hotel/hoteles(2).jpg", "small": "img/hotel/hoteles(2)-small.jpg" },
+    "width": 1600,
+    "height": 1200,
+    "views": 270,
+    "createdAt": "2024-02-12"
+  },
+  {
+    "id": 13,
+    "title": "Hotel",
+    "category": ["Hoteles"],
+    "tags": ["nocturno", "luces"],
+    "src": { "type": "image", "jpg": "img/hotel/hoteles(3).jpg", "small": "img/hotel/hoteles(3)-small.jpg" },
+    "width": 1600,
+    "height": 1200,
+    "views": 130,
+    "createdAt": "2022-09-13"
+  },
+  {
+    "id": 14,
+    "title": "Hotel",
+    "category": ["Hoteles"],
+    "tags": ["exterior", "terraza"],
+    "src": { "type": "image", "jpg": "img/hotel/hoteles(4).jpg", "small": "img/hotel/hoteles(4)-small.jpg" },
+    "width": 1600,
+    "height": 1200,
+    "views": 300,
+    "createdAt": "2022-01-14"
+  },
+  {
+    "id": 15,
+    "title": "Hotel",
+    "category": ["Hoteles", "Videos"],
+    "tags": ["suite", "interior"],
+    "src": { "type": "video", "mp4": "videos/hotel/hoteles(1).mp4" ,
+  "small": "videos/hotel/hoteles(1)-small.mp4"},
+    "width": 1920,
+    "height": 1080,
+    "views": 410,
+    "createdAt": "2024-06-15"
+  },
+
+  {
+    "id": 16,
+    "title": "Restaurante",
+    "category": ["Restaurantes"],
+    "tags": ["mesa", "decoración"],
+    "src": { "type": "image", "jpg": "img/restaurante/restaurantes(1).jpg", "small": "img/restaurante/restaurantes(1)-small.jpg" },
+    "width": 1600,
+    "height": 1200,
+    "views": 240,
+    "createdAt": "2025-08-16"
+  },
+  {
+    "id": 17,
+    "title": "Restaurante",
+    "category": ["Restaurantes"],
+    "tags": ["comedor", "lujo"],
+    "src": { "type": "image", "jpg": "img/restaurante/restaurantes(2).jpg", "small": "img/restaurante/restaurantes(2)-small.jpg" },
+    "width": 1600,
+    "height": 1200,
+    "views": 310,
+    "createdAt": "2025-06-17"
+  },
+  {
+    "id": 18,
+    "title": "Restaurante",
+    "category": ["Restaurantes"],
+    "tags": ["barra", "nocturno"],
+    "src": { "type": "image", "jpg": "img/restaurante/restaurantes(3).jpg", "small": "img/restaurante/restaurantes(3)-small.jpg" },
+    "width": 1600,
+    "height": 1200,
+    "views": 270,
+    "createdAt": "2025-04-18"
+  },
+  {
+    "id": 19,
+    "title": "Restaurante",
+    "category": ["Restaurantes", "Videos"],
+    "tags": ["chef", "servicio"],
+    "src": { "type": "video", "mp4": "videos/restaurante/restaurantes(1).mp4" ,
+  "small": "videos/restaurante/restaurantes(1)-small.mp4"},
+    "width": 1920,
+    "height": 1080,
+    "views": 760,
+    "createdAt": "2023-09-19"
+  },
+  {
+    "id": 20,
+    "title": "Restaurante",
+    "category": ["Restaurantes", "Videos"],
+    "tags": ["gourmet", "platos"],
+    "src": { "type": "video", "mp4": "videos/restaurante/restaurantes(2).mp4" ,
+  "small": "videos/restaurante/restaurantes(2)-small.mp4"},
+    "width": 1920,
+    "height": 1080,
+    "views": 380,
+    "createdAt": "2023-05-20"
+  },
+
+  {
+    "id": 21,
+    "title": "Spa",
+    "category": ["Spa"],
+    "tags": ["masaje", "relax"],
+    "src": { "type": "image", "jpg": "img/spa/spa(1).jpg", "small": "img/spa/spa(1)-small.jpg" },
+    "width": 1600,
+    "height": 1200,
+    "views": 280,
+    "createdAt": "2023-01-21"
+  },
+  {
+    "id": 22,
+    "title": "Spa",
+    "category": ["Spa"],
+    "tags": ["facial", "tratamiento"],
+    "src": { "type": "image", "jpg": "img/spa/spa(2).jpg", "small": "img/spa/spa(2)-small.jpg" },
+    "width": 1600,
+    "height": 1200,
+    "views": 100,
+    "createdAt": "2024-09-22"
+  },
+  {
+    "id": 23,
+    "title": "Spa",
+    "category": ["Spa"],
+    "tags": ["cuello", "relajación"],
+    "src": { "type": "image", "jpg": "img/spa/spa(3).jpg", "small": "img/spa/spa(3)-small.jpg" },
+    "width": 1600,
+    "height": 1200,
+    "views": 580,
+    "createdAt": "2024-07-23"
+  },
+  {
+    "id": 24,
+    "title": "Spa",
+    "category": ["Spa"],
+    "tags": ["masaje", "lujo"],
+    "src": { "type": "image", "jpg": "img/spa/spa(4).jpg"  ,
+  "small": "img/spa/spa(4)-small.jpg"},
+    "width": 1920,
+    "height": 1080,
+    "views": 450,
+    "createdAt": "2024-01-24"
+  },
+  {
+    "id": 25,
+    "title": "Experiencia",
+    "category": ["Experiencias", "Videos"],
+    "tags": ["bienestar", "aventura"],
+    "src": { "type": "video", "mp4": "videos/experiencia/experiencias(3).mp4" ,
+  "small": "videos/experiencia/experiencias(3)-small.mp4"},
+    "width": 1920,
+    "height": 1080,
+    "views": 320,
+    "createdAt": "2024-06-25"
+  }
+]

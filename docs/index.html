@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Landing page con hero slider, galería y lightbox para la prueba de maquetacion HTML+SCSS."
+    />
+    <title>Landing Page Silvia Tovar | Hero Slider y Galería</title>
+    <link
+      rel="preload"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="/maquetacionSTH/img/hero-slider/vp-2-small(1).jpg"
+      fetchpriority="high"
+    />
+    <script type="module" crossorigin src="/maquetacionSTH/assets/index-CtLXj6gB.js"></script>
+    <link rel="stylesheet" crossorigin href="/maquetacionSTH/assets/index-EOU67tkK.css">
+  </head>
+  <body>
+    <!-- #region header-nav -->
+    <header class="encabezado">
+      <div class="contenedor encabezado-contenedor">
+        <a href="#" class="logo">
+          <img src="/maquetacionSTH/img/promo/logo.png" id="logo" alt="Logo" />
+        </a>
+
+        <button
+          class="hamburguesa material-symbols-outlined"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+          aria-controls="menu"
+        >
+          ☰
+        </button>
+
+        <nav id="menu" class="navegacion" role="navigation">
+          <ul>
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a id="clickbtn" href="#promo-btn">Promoción</a></li>
+            <li><a href="#footer">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- #endregion header-nav -->
+
+    <main>
+      <!-- #region hero-slider -->
+      <section class="hero" id="hero" aria-label="Presentación de portada">
+        <div class="slider" id="slider">
+          <div class="slide activo">
+            <picture>
+              <source
+                srcset="/maquetacionSTH/img/hero-slider/vp-2-small(1).jpg"
+                media="(max-width: 479px)"
+              />
+              <img
+                src="/maquetacionSTH/img/hero-slider/vp-2.jpg"
+                alt="Disfruta experiencias únicas"
+              />
+            </picture>
+            <!-- <div class="contenido-slide">
+              <h1>Disfruta</h1>
+              <p>Descubre experiencias únicas con nosotros</p>
+              <a href="#galeria" class="btn-hero">Ver más</a>
+            </div> -->
+          </div>
+
+          <div class="slide">
+            <picture>
+              <source
+                srcset="/maquetacionSTH/img/hero-slider/vp-2-small(1).jpg"
+                media="(max-width: 479px)"
+              />
+              <img
+                src="/maquetacionSTH/img/hero-slider/vp-1.jpg"
+                alt="Relájate y desconecta"
+              />
+            </picture>
+            <!-- <div class="contenido-slide">
+              <h1>Relájate</h1>
+              <p>Paz y bienestar para desconectar</p>
+              <a href="#galeria" class="btn-hero">Explorar</a>
+            </div> -->
+          </div>
+
+          <div class="slide">
+            <picture>
+              <source
+                srcset="/maquetacionSTH/img/hero-slider/vp-2-small(1).jpg"
+                media="(max-width: 479px)"
+              />
+              <img
+                src="/maquetacionSTH/img/hero-slider/vp-3.jpg"
+                alt="Aventuras inolvidables"
+              />
+            </picture>
+            <!-- <div class="contenido-slide">
+              <h1>Aventuras</h1>
+              <p>Excursiones y experiencias inolvidables</p>
+              <a href="#galeria" class="btn-hero">Empezar</a>
+            </div> -->
+          </div>
+        </div>
+
+        <button class="flecha izquierda" aria-label="Anterior">❮</button>
+        <button class="flecha derecha" aria-label="Siguiente">❯</button>
+        <div class="puntos" id="puntos" role="tablist"></div>
+      </section>
+
+      <!-- #endregion hero-slider -->
+
+      <!-- #region galeria -->
+
+      <!-- <section class="galeria" id="galeria" aria-labelledby="titulo-galeria">
+        <div class="contenedor">
+          <div class="filtros">
+            <div class="categorias">
+              <button class="btn-filtro activo" data-categoria="todos">
+                Todos
+              </button>
+              <button class="btn-filtro" data-categoria="Hoteles">
+                Hoteles
+              </button>
+              <button class="btn-filtro" data-categoria="Spa">Spa</button>
+              <button class="btn-filtro" data-categoria="Restaurantes">
+                Restaurante
+              </button>
+              <button class="btn-filtro" data-categoria="Experiencias">
+                Experiencias
+              </button>
+              <button class="btn-filtro" data-categoria="Destinos">
+                Destino
+              </button>
+              <button class="btn-filtro" data-categoria="Videos">Vídeos</button>
+            </div>
+
+            <input
+              type="search"
+              id="buscar"
+              placeholder="Buscar por título..."
+            />
+
+            <select id="ordenar" name="ordenar" aria-label="Ordenar galería">
+              <option value="reciente">Más recientes</option>
+              <option value="vistos">Más vistos</option>
+              <option value="az">A–Z</option>
+            </select>
+          </div>
+
+          <div class="galeria-grid" id="galeria-json"></div>
+        </div>
+      </section> -->
+      <!-- #endregion galeria -->
+
+      <!-- #region lightbox -->
+      <button id="promo-btn" class="promo-btn" aria-label="Abrir promoción">
+        🎁
+      </button>
+
+      <div
+        id="promo-modal"
+        class="promo-modal"
+        aria-hidden="true"
+        role="dialog"
+        aria-modal="true"
+      >
+        <div class="promo-contenido">
+          <button class="cerrar" aria-label="Cerrar">✖</button>
+          <img src="/maquetacionSTH/img/promo/promo.webp" alt="Promoción especial" />
+          <h2>¡Por tu fidelidad!</h2>
+          <p>
+            Reserva ahora y consigue un 20% de descuento en tu próxima
+            experiencia.
+          </p>
+        </div>
+      </div>
+
+      <!-- #endregion lightbox -->
+    </main>
+
+    <!-- #region footer -->
+    <footer class="footer" id="footer">
+      <div class="footer-contenedor">
+        <div class="footer-redes">
+          <a href="#" aria-label="Facebook"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#" aria-label="Telefono"><i class="fas fa-phone"></i></a>
+        </div>
+
+        <button class="btn-arriba" aria-label="Volver arriba">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </footer>
+    <!-- #endregion footer -->
+  </body>
+</html>

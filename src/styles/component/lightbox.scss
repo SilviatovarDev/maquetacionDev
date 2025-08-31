@@ -1,0 +1,97 @@
+@use "variables" as *;
+
+.promo-btn {
+position: fixed;
+    bottom: 50px;
+    right: 16px;
+    background: #ffffff24;
+    color: #fff;
+    border: #00000082;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, background 0.3s;
+    z-index: 1000;
+
+  &:hover {
+    background: $color-principal-hover;
+    transform: scale(1.1);
+  }
+}
+
+.promo-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+   animation: zoomIn 10s ease;
+
+  &.activo {
+    display: flex;
+    animation: fadeIn 0.4s ease;
+  }
+
+  .promo-contenido {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    animation: zoomIn 0.9s ease;      
+    cursor: pointer;
+
+    &:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 12px 30px rgba(204, 204, 204, 0.4);
+
+  }
+
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  
+    }
+
+    h2 {
+      color: $color-principal;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      color: $color-texto;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+  
+    .cerrar {
+      position: absolute;
+      top: 15px;
+      right: 20px;
+      background: transparent;
+      border: none;
+      font-size: 1.2rem;
+      cursor: pointer;
+      color: #f1f1f1;
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes zoomIn {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}

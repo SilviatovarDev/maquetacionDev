@@ -1,0 +1,31 @@
+// estilos reutilizables en toda la web
+$color-principal: #0055ff;
+$color-principal-hover: #003bb3;
+$color-texto: #333;
+$color-texto-claro: #fff;
+$color-fondo: #ffffff;
+$color-fondo-claro: #fafafa;
+$color-texto-oscuro: #222;
+$color-fondo-secundario: #f5f5f5;
+$color-borde: #ddd;
+$color-borde-claro: #ccc;
+$color-footer : #4a6075;
+$color-texto-enlace:#4a6075;
+
+
+//overlays 
+$overlay: rgba(0, 0, 0, 0.8);
+$overlay-boton: rgba(0, 0, 0, 0.6);
+$overlay-boton-hover: rgba(0, 0, 0, 0.9);
+
+//breakpoints
+$bp-xl: 1199px;
+$bp-md: 767px;
+$bp-sm: 479px;
+$bp-movil: 768px;
+$breakpoint-movil: $bp-movil;
+
+body{
+font-family: math;
+
+}

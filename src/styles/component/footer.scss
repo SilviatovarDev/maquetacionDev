@@ -1,0 +1,56 @@
+@use "variables" as *;
+
+.footer {
+  background: $color-footer; 
+  padding: 1rem 2rem;
+  color:$color-texto-claro;
+
+  .footer-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer-redes {
+    display: flex;
+    gap: 1rem;
+
+    a {
+      width: 32px;
+      height: 32px;
+      background: $color-fondo;
+      color: $color-texto-enlace;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      transition: background 0.3s, color 0.3s;
+
+      &:hover {
+        background: $color-principal;
+        color: #fff;
+      }
+    }
+  }
+
+  .btn-arriba {
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 50%;
+    background: #fff;
+    color: #4a6075;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s, color 0.3s;
+
+    &:hover {
+      background: $color-principal;
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,74 @@
+@use "variables" as *;
+
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: $color-fondo-claro;
+  border: 1px solid $color-borde;
+  border-radius: 10px;
+
+  .categorias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+
+    .btn-filtro {
+      padding: 0.5rem 1rem;
+      border: 1px solid $color-borde-claro;
+      border-radius: 20px;
+      background: $color-fondo;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: $color-principal;
+        color: $color-texto-claro;
+        transform: translateY(-2px);
+      }
+
+      &.activo {
+        background: $color-principal;
+        color: $color-texto-claro;
+        border-color: $color-principal;
+      }
+    }
+  }
+
+
+  #buscar {
+    padding: 0.5rem 1rem;
+    border: 1px solid $color-borde-claro;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 250px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+
+    &:focus {
+      outline: none;
+      border-color: $color-principal;
+      box-shadow: 0 0 6px rgba(0, 85, 255, 0.3);
+    }
+  }
+
+  #ordenar {
+    padding: 0.5rem 1rem;
+    border: 1px solid $color-borde-claro;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    background: $color-fondo;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover,
+    &:focus {
+      border-color: $color-principal;
+    }
+  }
+}
