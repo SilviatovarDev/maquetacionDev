@@ -1,4 +1,4 @@
-@use 'variables' as *;
+@use "variables" as *;
 
 .hero {
   position: relative;
@@ -13,10 +13,11 @@
   .slide {
     position: absolute;
     inset: 0;
-    opacity: 1;
+    opacity: 0;
     visibility: hidden;
-
-    img {
+    transition: opacity 1s ease-in-out, visibility 1s ease-in-out;
+    
+    video {
       width: 100%;
       height: 100%;
       object-fit: cover;
@@ -30,7 +31,7 @@
   }
 
   .contenido-slide {
-    position: absolute;
+   position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -43,6 +44,7 @@
     backdrop-filter: blur(1px);
     box-shadow: 0 4px 20px rgb(0 0 0 / 6%);
     text-shadow: 1px 1px 9px rgba(255, 255, 255, 0.941) !important;
+
 
     h1 {
       margin-bottom: 0.5rem;
@@ -71,11 +73,12 @@
     }
   }
 
+  
   .flecha {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0,0,0,0.5);
     color: #fff;
     border-radius: 5px;
     border: none;
@@ -84,16 +87,10 @@
     cursor: pointer;
     z-index: 5;
 
-    &.izquierda {
-      left: 10px;
-    }
-    &.derecha {
-      right: 10px;
-    }
+    &.izquierda { left: 10px; }
+    &.derecha { right: 10px; }
 
-    &:hover {
-      background: rgba(0, 0, 0, 0.8);
-    }
+    &:hover { background: rgba(0,0,0,0.8); }
   }
 
   .puntos {
@@ -113,7 +110,7 @@
       cursor: pointer;
       transition: background 0.3s;
 
-      &[aria-selected='true'] {
+      &[aria-current="true"] {
         background: $color-principal;
       }
     }

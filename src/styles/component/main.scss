@@ -1,14 +1,13 @@
-// importo los componentes
+@use 'variables' as *;
+@use 'mixins' as *;
+@use 'header';
+@use 'hero-slider';
+@use 'gallery';
+@use 'search';
+@use 'lightbox';
+@use 'footer';
 
-@use "variables" as *;
-@use "mixins" as *;
-@use "header";
-@use "hero-slider"; 
-@use "gallery";
-@use "search";
-@use "lightbox";
-@use "footer";
-
-
-
-
+body {
+  margin: 0;
+  overflow-x: hidden;
+}

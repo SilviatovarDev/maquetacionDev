@@ -1,7 +1,6 @@
 // Activa el modal 
 export function activarPromo() {
   const btn = document.getElementById("promo-btn");
-  const clickbtn = document.getElementById("clickbtn");
   const modal = document.getElementById("promo-modal");
   const cerrar = modal.querySelector(".cerrar");
   const contenido = modal.querySelector(".promo-contenido");
@@ -30,8 +29,9 @@ export function activarPromo() {
   // Cerrar modal con botón cerrar
   cerrar.addEventListener("click", cerrarModal);
 
-  // Abrir modal con botón de promoción
+   // Abrir modal con botón de promoción
   clickbtn.addEventListener("click", abrirModal);
+  
 
   // Cerrar Esc
   document.addEventListener("keydown", (e) => {

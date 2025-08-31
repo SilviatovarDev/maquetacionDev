@@ -9,19 +9,11 @@
     />
     <title>Landing Page Silvia Tovar | Hero Slider y Galería</title>
     <link
-      rel="preload"
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
     />
-    <link
-      rel="preload"
-      as="image"
-      href="/maquetacionDev/img/hero-slider/vp-2-small(1).jpg"
-      fetchpriority="high"
-    />
-    <script type="module" crossorigin src="/maquetacionDev/assets/index-CtLXj6gB.js"></script>
-    <link rel="stylesheet" crossorigin href="/maquetacionDev/assets/index-EOU67tkK.css">
+    <script type="module" crossorigin src="/maquetacionDev/assets/index-CC_5HTFI.js"></script>
+    <link rel="stylesheet" crossorigin href="/maquetacionDev/assets/index-dH9JVu6S.css">
   </head>
   <body>
     <!-- #region header-nav -->
@@ -44,7 +36,7 @@
           <ul>
             <li><a href="#hero">Inicio</a></li>
             <li><a href="#galeria">Galería</a></li>
-            <li><a id="clickbtn" href="#promo-btn">Promoción</a></li>
+            <li><a  id="clickbtn" href="#promo-btn">Promoción</a></li>
             <li><a href="#footer">Contacto</a></li>
           </ul>
         </nav>
@@ -54,73 +46,67 @@
 
     <main>
       <!-- #region hero-slider -->
-      <section class="hero" id="hero" aria-label="Presentación de portada">
+      <section class="hero" id="hero" aria-label="Presentación principal">
         <div class="slider" id="slider">
           <div class="slide activo">
-            <picture>
+            <video muted playsinline>
               <source
-                srcset="/maquetacionDev/img/hero-slider/vp-2-small(1).jpg"
+                src="/videos/hero-slider/vp-1-small (1).mp4"
+                type="video/mp4"
                 media="(max-width: 479px)"
               />
-              <img
-                src="/maquetacionDev/img/hero-slider/vp-2.jpg"
-                alt="Disfruta experiencias únicas"
-              />
-            </picture>
-            <!-- <div class="contenido-slide">
+              <source src="/maquetacionDev/videos/hero-slider/vp-2.mp4" type="video/mp4" />
+            </video>
+            <div class="contenido-slide">
               <h1>Disfruta</h1>
               <p>Descubre experiencias únicas con nosotros</p>
               <a href="#galeria" class="btn-hero">Ver más</a>
-            </div> -->
+            </div>
           </div>
 
           <div class="slide">
-            <picture>
+            <video muted playsinline>
               <source
-                srcset="/maquetacionDev/img/hero-slider/vp-2-small(1).jpg"
+                src="/videos/hero-slider/vp-1-small (1).mp4"
+                type="video/mp4"
                 media="(max-width: 479px)"
               />
-              <img
-                src="/maquetacionDev/img/hero-slider/vp-1.jpg"
-                alt="Relájate y desconecta"
-              />
-            </picture>
-            <!-- <div class="contenido-slide">
+              <source src="/maquetacionDev/videos/hero-slider/vp-1.mp4" type="video/mp4" />
+            </video>
+            <div class="contenido-slide">
               <h1>Relájate</h1>
-              <p>Paz y bienestar para desconectar</p>
+              <p>Spa y bienestar para desconectar</p>
               <a href="#galeria" class="btn-hero">Explorar</a>
-            </div> -->
+            </div>
           </div>
 
           <div class="slide">
-            <picture>
+            <video muted playsinline>
               <source
-                srcset="/maquetacionDev/img/hero-slider/vp-2-small(1).jpg"
+                src="/videos/hero-slider/vp-1-small (1).mp4"
+                type="video/mp4"
                 media="(max-width: 479px)"
               />
-              <img
-                src="/maquetacionDev/img/hero-slider/vp-3.jpg"
-                alt="Aventuras inolvidables"
-              />
-            </picture>
-            <!-- <div class="contenido-slide">
+              <source src="/maquetacionDev/videos/hero-slider/vp-3.mp4" type="video/mp4" />
+            </video>
+            <div class="contenido-slide">
               <h1>Aventuras</h1>
               <p>Excursiones y experiencias inolvidables</p>
               <a href="#galeria" class="btn-hero">Empezar</a>
-            </div> -->
+            </div>
           </div>
         </div>
 
         <button class="flecha izquierda" aria-label="Anterior">❮</button>
         <button class="flecha derecha" aria-label="Siguiente">❯</button>
-        <div class="puntos" id="puntos" role="tablist"></div>
-      </section>
 
+        <div class="puntos" id="puntos"></div>
+      </section>
       <!-- #endregion hero-slider -->
 
       <!-- #region galeria -->
 
-      <!-- <section class="galeria" id="galeria" aria-labelledby="titulo-galeria">
+      <section class="galeria" id="galeria" aria-labelledby="titulo-galeria">
         <div class="contenedor">
           <div class="filtros">
             <div class="categorias">
@@ -149,7 +135,7 @@
               placeholder="Buscar por título..."
             />
 
-            <select id="ordenar" name="ordenar" aria-label="Ordenar galería">
+            <select id="ordenar" aria-label="ordenar">
               <option value="reciente">Más recientes</option>
               <option value="vistos">Más vistos</option>
               <option value="az">A–Z</option>
@@ -158,7 +144,7 @@
 
           <div class="galeria-grid" id="galeria-json"></div>
         </div>
-      </section> -->
+      </section>
       <!-- #endregion galeria -->
 
       <!-- #region lightbox -->
