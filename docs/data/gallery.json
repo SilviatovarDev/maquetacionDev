@@ -91,7 +91,7 @@
   {
     "id": 9,
     "title": "Experiencia",
-    "category": ["Experiencias", "Videos"],
+    "category": ["Experiencias"],
     "tags": ["mar", "buceo"],
     "src": { "type": "image", "jpg": "img/experiencia/experiencias (5).webp" },
     "width": 1920,
@@ -279,7 +279,7 @@
   {
     "id": 25,
     "title": "Experiencia",
-    "category": ["Experiencias", "Videos"],
+    "category": ["Experiencias"],
     "tags": ["bienestar", "aventura"],
     "src": {
       "type": "image",
